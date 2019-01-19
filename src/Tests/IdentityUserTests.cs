@@ -100,7 +100,7 @@
 
 			var document = user.ToBsonDocument();
 
-			Expect(document.Contains("Claims"), Is.True);
+			Expect(document.Contains("Claims"), Is.False);
 		}
 	}
 }
